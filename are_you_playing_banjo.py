@@ -10,7 +10,9 @@ my_name = "Richard"
 my_name2 = "Timothy"
 
 def are_you_playing_banjo(name):
-    
-    print("Hello World!")
+    if my_name[0] == "R" or my_name[0] == "r":
+        print(f"{my_name } plays Banjo!")
+    else:
+        print(f"{my_name} does not play banjo")
     
 are_you_playing_banjo(my_name)
